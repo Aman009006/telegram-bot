@@ -6,7 +6,7 @@ const token = '5692204674:AAFjOuSDfHwWWd6Gu-cPDsZuOkukfkaqFeI';
 
 const bot = new TelegramBot(token, {polling: true});
 
-const chatId = '-1001632701126'
+const chatId = '-1001278941946'
 
 cron.schedule('* * * * *', () => {
     RedditImageFetcher.fetch({
